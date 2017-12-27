@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="944dp"
+    android:layout_height="56dp" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/public_id"
+        android:layout_width="40dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/id"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/tv_fmg_date"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/task_date"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/tv_fmg_orderid"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/fumigate_id"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/tv_fmg_building"
+        android:layout_width="70dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/building"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/tv_fmg_method"
+        android:layout_width="205dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/fumigate_method"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/tv_fmg_dosingdate"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/fumigate_dosingdate"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/tv_fmg_person"
+        android:layout_width="110dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/person"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc" />
+
+    <TextView
+        android:id="@+id/tv_fmg_statenc"
+        android:layout_width="95dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/state"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+</LinearLayout>

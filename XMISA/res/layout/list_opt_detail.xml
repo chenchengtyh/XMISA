@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_list_opt_detail"
+    android:layout_width="944dp"
+    android:layout_height="56dp"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/public_id"
+        android:layout_width="40dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/id"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_trayname"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="DF070218"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_goodsid"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/goods_id"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_goodsname"
+        android:layout_width="233dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="云南曲靖沾益C3L-2015片烟"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_vbomname"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/vbomname"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_spec"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/spec"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_plannum"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/plan_num"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_opt_detail_factnum"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/fact_num"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_planweight"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/plan_weight"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_opt_detail_factweight"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/fact_weight"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:visibility="visible" />
+
+</LinearLayout>

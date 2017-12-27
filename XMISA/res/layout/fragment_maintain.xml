@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_3_menu"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/title_logo"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_3_survey"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_2_1_1_receive_bg"
+            android:gravity="bottom|center"
+            android:text="@string/survey"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_3_fumigate"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_2_1_2_put_in_bg"
+            android:gravity="bottom|center"
+            android:text="@string/fumigate"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_3_pests"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_2_1_3_put_out_bg"
+            android:gravity="bottom|center"
+            android:text="@string/pests"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_3_patrol"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_2_1_4_on_board_bg"
+            android:gravity="bottom|center"
+            android:text="@string/patrol"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_3_fragmentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_3_menu"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_3_hide"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="700dp"
+        android:background="@color/transparent"
+        android:gravity="bottom|center" />
+
+</RelativeLayout>

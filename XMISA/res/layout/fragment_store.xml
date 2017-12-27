@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_1_menu"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/title_logo"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_1_receive"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_2_1_1_receive_bg"
+            android:gravity="bottom|center"
+            android:text="@string/receive"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_1_input"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_2_1_2_put_in_bg"
+            android:gravity="bottom|center"
+            android:text="@string/put_in"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_1_output"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_2_1_3_put_out_bg"
+            android:gravity="bottom|center"
+            android:text="@string/put_out"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_1_inventory"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_2_1_5_inventory_bg"
+            android:gravity="bottom|center"
+            android:text="@string/inventory"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_1_fragmentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_1_menu"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_1_hide"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="700dp"
+        android:background="@color/transparent"
+        android:gravity="bottom|center" />
+
+</RelativeLayout>

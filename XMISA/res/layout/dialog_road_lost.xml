@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="840dp"
+    android:layout_height="480dp"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_rec_loss_info"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/gray_light"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/gray_8f"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="途损明细表"
+                    android:textColor="@color/white"
+                    android:textSize="19dp" />
+
+                <Button
+                    android:id="@+id/btn_rec_loss_back"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/back" />
+
+                <Button
+                    android:id="@+id/btn_rec_loss_save"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/save" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@color/gray_light"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|right"
+                    android:paddingBottom="5dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="@string/goods_id_"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/tv_rec_lost_goodsid"
+                    android:layout_width="134dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_top"
+                    android:gravity="bottom|left"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="6dp"
+                    android:singleLine="true"
+                    android:text="XML无ID"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|right"
+                    android:paddingBottom="5dp"
+                    android:text="@string/goods_name_"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/tv_rec_lost_goodsname"
+                    android:layout_width="290dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_top"
+                    android:gravity="bottom|left"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="6dp"
+                    android:singleLine="true"
+                    android:text="福建南平武夷山C23F-2012片烟"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|right"
+                    android:paddingBottom="5dp"
+                    android:text="@string/spec_"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/tv_rec_lost_spec"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_top"
+                    android:gravity="bottom|left"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="6dp"
+                    android:singleLine="true"
+                    android:text="200"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="@color/gray_light"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:gravity="top|right"
+                    android:paddingTop="6dp"
+                    android:text="@string/plan_num_"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/tv_rec_lost_plannum"
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_bottom"
+                    android:gravity="top|left"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="7dp"
+                    android:singleLine="true"
+                    android:text="40"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="134dp"
+                    android:layout_height="match_parent"
+                    android:gravity="top|right"
+                    android:paddingTop="6dp"
+                    android:text="@string/fact_num_"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/tv_rec_lost_factnum"
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_bottom"
+                    android:gravity="top|left"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="7dp"
+                    android:singleLine="true"
+                    android:text="39"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    android:gravity="top|right"
+                    android:paddingTop="6dp"
+                    android:text="@string/plan_weight_"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/tv_rec_lost_planweight"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_bottom"
+                    android:gravity="top|left"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="7dp"
+                    android:singleLine="true"
+                    android:text="6000.0"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    android:gravity="top|right"
+                    android:paddingTop="6dp"
+                    android:text="@string/fact_weight_"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/tv_rec_lost_factweight"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edit_bottom"
+                    android:gravity="top|left"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="7dp"
+                    android:singleLine="true"
+                    android:text="5815.0"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_rec_loss_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.nti56.xmisa.adapter.MyListView
+                android:id="@+id/list_rec_loss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="56dp"
+                android:divider="@color/black"
+                android:dividerHeight="1dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/list_rec_loss"
+                android:layout_marginTop="-52dp"
+                android:background="@color/black"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_rec_loss_addlist"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/list_rec_loss"
+                android:layout_marginTop="-50dp"
+                android:gravity="center"
+                android:text="@string/record_add"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/black"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_8f"
+                    android:gravity="center"
+                    android:text="ID"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_cc"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_8f"
+                    android:gravity="center"
+                    android:text="途损重量"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_cc"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_8f"
+                    android:gravity="center"
+                    android:text="规格"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_cc"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_8f"
+                    android:gravity="center"
+                    android:text="换算率"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_cc"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="173dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_8f"
+                    android:gravity="center"
+                    android:text="途损类型"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_cc"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray_8f"
+                    android:gravity="center"
+                    android:text="一维条码"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="54dp"
+                    android:background="@color/gray"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_hide_typeselect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:background="@color/transparent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_loss_typeselect"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
+        android:background="@color/yellow"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_lost_type_none"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="@string/none"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn_lost_type_wet"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="@string/wet_out"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn_lost_type_lose"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="@string/lose"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+</RelativeLayout>

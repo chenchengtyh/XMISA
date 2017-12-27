@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_list_fmg_detail"
+    android:layout_width="944dp"
+    android:layout_height="56dp"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/public_id"
+        android:layout_width="40dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/id"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_fmg_detail_floor"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/floor"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_fmg_detail_location"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/location"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration6"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration6"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration12"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration12"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration24"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration24"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration48"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration48"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration72"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration72"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration96"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration96"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration144"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration144"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/et_fmg_detail_concentration216"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/concentration216"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_cc"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_fmg_detail_picture"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/picture"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:visibility="visible" />
+
+</LinearLayout>

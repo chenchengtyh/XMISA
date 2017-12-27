@@ -1,0 +1,234 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1024dp"
+    android:layout_height="552dp"
+    android:layout_gravity="center"
+    android:background="@drawable/login_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.nti56.xmisa.LoginActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="bottom|center"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="40dp" >
+
+        <requestFocus />
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/layout_login_input"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/user"
+            android:textColor="@color/darkgray"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_login_user"
+            android:layout_width="274dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_input_bg"
+            android:gravity="center_vertical"
+            android:inputType="textEmailAddress"
+            android:maxLength="14"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:text="@string/exp_user"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="68dp"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/key"
+            android:textColor="@color/darkgray"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_login_key"
+            android:layout_width="274dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/login_input_bg"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:maxLength="14"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:text="@string/exp_user"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_login_users"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignRight="@id/et_login_user"
+            android:layout_alignTop="@id/et_login_user"
+            android:background="@drawable/indicator_down" />
+
+        <CheckBox
+            android:id="@+id/checkbox_keepkey"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="115dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/keep_key"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_autologin"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="550dp"
+            android:layout_marginTop="115dp"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/auto_login"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_login_enter"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="442dp"
+            android:layout_marginTop="180dp"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+        <com.nti56.xmisa.adapter.MyListView
+            android:id="@+id/lv_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/et_login_user"
+            android:layout_alignRight="@id/et_login_user"
+            android:layout_below="@id/et_login_user"
+            android:divider="@color/gray_cc"
+            android:dividerHeight="2dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_login_setting"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/server_ip"
+            android:textColor="@color/darkgray"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_login_server_ip"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/login_input_bg"
+            android:digits="0123456789."
+            android:gravity="center_vertical"
+            android:hint="172.16.20.87"
+            android:inputType="number"
+            android:maxLength="15"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="78dp"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="@string/server_port"
+            android:textColor="@color/darkgray"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_login_server_port"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="78dp"
+            android:background="@drawable/login_input_bg"
+            android:gravity="center_vertical"
+            android:hint="8080"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_login_sure"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_login_back"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="530dp"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_version"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:paddingRight="20dp"
+        android:text="@string/version"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+</LinearLayout>

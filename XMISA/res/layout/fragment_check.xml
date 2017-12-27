@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_2_menu"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/title_logo"
+        android:gravity="top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_2_assign"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_2_1_1_receive_bg"
+            android:gravity="bottom|center"
+            android:text="@string/assign"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_2_examine"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_2_1_2_put_in_bg"
+            android:gravity="bottom|center"
+            android:text="@string/examine"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2_fragmentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_2_menu"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_2_hide"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="700dp"
+        android:background="@color/transparent"
+        android:gravity="bottom|center" />
+
+</RelativeLayout>
